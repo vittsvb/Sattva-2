@@ -504,8 +504,8 @@ nav.shrink .navbar-toggle {
 .g-plus,
 .link {
 	float: left;
-	height: 126px;
-	width: 126px;
+	height: 35px;
+	width: 35px;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-mz-transition: all 0.3s ease-in-out;
@@ -514,12 +514,10 @@ nav.shrink .navbar-toggle {
 }
 
 .fb {
-	background: url(../images/social/facebook_color.png);
+	background: url(../images/social/fb.png);
+	background-size: 35px 35px;
 }
 
-.fb:hover {
-	background: url(../images/social/facebook_black.png);
-}
 
 .twit {
 	background: url(../images/social/twitter_color.png);
