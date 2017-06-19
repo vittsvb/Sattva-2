@@ -59,6 +59,10 @@
 ||				2. Global 
 ==================================================*/
 
+.owl-carousel {
+	touch-action: none;
+}
+
 body {
 	font-family: 'Raleway', 'Open-Sans', sans-serif;
 	overflow-x: hidden;
@@ -270,8 +274,8 @@ textarea.empty {
 }
 
 .navbar-brand {
-	margin-top: -25px;
-	width: 205px;
+	margin-top: -30px;
+	width: 250px;
 }
 
 .navbar-default .navbar-collapse {
@@ -518,7 +522,6 @@ nav.shrink .navbar-toggle {
 	background-size: 35px 35px;
 }
 
-
 .twit {
 	background: url(../images/social/twitter_color.png);
 }
@@ -621,6 +624,7 @@ footer a:hover {
 /*------------------------------  for small (tab) screen -------------------------*/
 
 @media (max-width: 991px) and (min-width: 768px) {
+
 	.custom-navbar-default {
 		padding: 15px 0px;
 	}
@@ -698,6 +702,10 @@ footer a:hover {
 /*------------------------------  for extra-small (mobile) screen -------------------------*/
 
 @media (max-width: 767px) {
+		.navbar-brand {
+		margin-top: -30px;
+		width: 200px;
+	}
 	.custom-navbar-default {
 		padding: 15px 0px;
 	}
@@ -794,7 +802,8 @@ footer a:hover {
 		padding: 10px;
 	}
 	.flexslider .slides,
-	.flex-direction-nav, .flex-control-nav {
+	.flex-direction-nav,
+	.flex-control-nav {
 		display: none
 	}
 }

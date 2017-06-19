@@ -74,7 +74,7 @@ $(document).ready(function(){
             $("#logo").attr("src", "images/Logo_stick.png")
         }
         else {
-             $("#logo").attr("src", "images/logo_sattva.jpg")
+             $("#logo").attr("src", "images/oie_transparent.png")
         }
     });
 });
